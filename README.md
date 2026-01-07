@@ -14,7 +14,7 @@
 
 The quiz logic is inside a function run_quiz().
 
-Each difficulty level has its own set of questions which the user can choose.
+Each difficulty level has its own set of questions which the user can choose. If input not recognised then the output states "Sorry, I didn't recognise that level. Please choose E, M, or H."
 
 The quiz uses branching `if`/`elif`/`else` conditioned by user input to determine which set of instructions to execute which runs in one block.
 
