@@ -1,4 +1,4 @@
-## How to Play
+## How to Play- General knowledge quiz:
 1. Run the script in a Python environment.
 2. Enter your name when prompted.
 3. Choose a difficulty level:
