@@ -11,10 +11,22 @@
 
 
 ## Technical Documentation:
+
 The quiz logic is inside a function run_quiz().
 
-A while True loop allows replay until the user enters n.
+Each difficulty level has its own set of questions which the user can choose.
 
-Score is tracked with a score variable and displayed at the end.
+The quiz uses branching `if`/`elif`/`else` conditioned by user input to determine which set of instructions to execute which runs in one block.
 
-Each difficulty level has its own set of questions.
+The user is able to type their own answers via the input() function.
+
+The variable score starts at 0 and counts (score += 1) correct answers, the score is displayed at the end.
+
+A while True loop allows replay until the user enters `n` to stop the quiz.
+
+## Limitations:
+
+Exact letter matching for levels: requires `E`, `M`, or `H` in uppercase
+
+Hard‑coded questions: Changing quiz content requires editing the code.
+
